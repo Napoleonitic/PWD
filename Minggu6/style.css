@@ -1,4 +1,4 @@
-/* ===== LATAR ===== */
+
 body {
     font-family: "Segoe UI", Arial, sans-serif;
     background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
@@ -9,16 +9,15 @@ body {
     padding: 0;
 }
 
-/* Lapisan lembut */
 .overlay {
     background-color: rgba(15, 45, 20, 0.55);
     min-height: 100vh;
     padding: 60px 0;
 }
 
-/* ===== FORM ===== */
+
 form {
-    background-color: rgba(221, 238, 226, 0.95); /* warna utama hijau lembut */
+    background-color: rgba(221, 238, 226, 0.95); 
     width: 520px;
     margin: auto;
     padding: 35px;
@@ -27,50 +26,45 @@ form {
     border: 1px solid #3b5f3b;
 }
 
-/* ===== JUDUL ===== */
 h1 {
     text-align: center;
-    color: #1c321c; /* font lebih tua dan kontras */
+    color: #1c321c; 
     font-size: 26px;
     margin-bottom: 25px;
     letter-spacing: 1px;
 }
 
-/* ===== LABEL ===== */
 label {
     display: block;
     margin-top: 14px;
-    color: #162a16; /* lebih gelap agar mencolok */
+    color: #162a16;
     font-weight: bold;
     font-size: 15px;
 }
 
-/* ===== INPUT, SELECT, TEXTAREA ===== */
 input, select, textarea {
     width: 100%;
     padding: 10px;
     margin-top: 6px;
     border: 1px solid #678a67;
     border-radius: 6px;
-    background-color: #c4d6c4; /* lebih tua dari form utama */
-    color: #122512; /* font lebih gelap */
+    background-color: #c4d6c4; 
+    color: #122512; 
     font-size: 14px;
 }
 
-/* Fokus input lebih cerah */
 input:focus, select:focus, textarea:focus {
     outline: none;
     background-color: #e6f1e6;
     border-color: #2e5e2e;
 }
 
-/* ===== FIELDSET ===== */
 fieldset {
     border: 1px solid #4a724a;
     border-radius: 8px;
     margin-top: 20px;
     padding: 15px;
-    background-color: rgba(236, 247, 239, 0.9); /* sedikit beda dari form utama */
+    background-color: rgba(236, 247, 239, 0.9); 
 }
 
 legend {
@@ -79,7 +73,6 @@ legend {
     font-size: 16px;
 }
 
-/* ===== TOMBOL ===== */
 button {
     background-color: #3e6b3e;
     color: #f4fff4;
@@ -129,3 +122,4 @@ td {
 tr:hover td {
     background-color: #bcd5bc;
 }
+
