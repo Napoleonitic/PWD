@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami - CinePals</title>
+
+    <!-- ====== FONT & BASE STYLE ====== -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --highlight: #ff7b39;
+            --text: #fdfdfd;
+            --text-dark: #262626;
+            --bg: #0b0b0b;
+            --bg-light: #1a1a1a;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+        }
+
+        /* ===== NAVBAR SIMPLE ===== */
+        .navbar {
+            width: 100%;
+            padding: 18px 40px;
+            background: var(--bg-light);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+        }
+
+        .logo-text {
+            font-weight: 700;
+            font-size: 1.7rem;
+            color: #ff7b39;
+        }
+
+        .logo-text span {
+            color: #ff7b39;
+        }
+
+        /* ===== ABOUT CONTENT ===== */
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            background: var(--bg-light);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 15px rgba(255, 123, 57, 0.15);
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            color: var(--highlight);
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
+        .team {
+            margin-top: 40px;
+        }
+
+        .team h2 {
+            color: var(--highlight);
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 25px;
+            margin-top: 50px;
+            border-top: 1px solid #333;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <div class="navbar">
+        <a class="logo" href="index.php">
+            <img src="public/img/logo-cp.png" alt="" style="height: 45px;">
+            <div class="logo-text">Cine<span>Pals</span></div>
+        </a>
+    </div>
+
+    <!-- ===== CONTENT ===== -->
+    <div class="container">
+        <h1>Tentang Kami</h1>
+
+        <p style="text-align: justify;">
+            CinePals adalah platform pemesanan tiket bioskop modern yang dirancang untuk memberikan pengalaman
+            terbaik kepada para penonton film di seluruh Indonesia. Kami menghadirkan antarmuka yang cepat,
+            nyaman, dan aman sehingga pengguna dapat menikmati proses pemesanan tanpa hambatan.
+        </p>
+
+        <p style="text-align: justify;">
+            Dengan teknologi terbaru, CinePals memastikan informasi jadwal film, ketersediaan kursi, dan proses pembayaran
+            berjalan secara real-time. Kami percaya bahwa menonton film bukan hanya hiburan, tetapi juga pengalaman yang menyatukan.
+        </p>
+
+        <div class="team">
+            <h2>Misi Kami</h2>
+            <ol>
+                <li>Mempermudah akses masyarakat ke dunia perfilman.</li>
+                <li>Menyediakan informasi film yang akurat dan terkini.</li>
+                <li>Menghadirkan layanan pemesanan tiket yang cepat dan aman.</li>
+                <li>Mendukung perkembangan industri perfilman lokal dan internasional.</li>
+            </ol>
+        </div>
+
+        <div class="team">
+            <h2>Hubungi Kami</h2>
+            <p>
+                Kami selalu terbuka menerima kritik, saran, atau laporan masalah teknis.<br>
+                Email Support: <b>help@cinepals.com</b>
+            </p>
+        </div>
+
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <div class="footer">
+        © 2025 CinePals. Semua hak dilindungi.
+    </div>
+
+</body>
+</html>
